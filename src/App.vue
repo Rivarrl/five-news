@@ -1,15 +1,17 @@
 <template>
   <div id="app">
     <tab-bar></tab-bar>
-    <router-link to="/vtuber">Vtuber</router-link>
+    <Home/>
   </div>
 </template>
 <script>
 import TabBar from '@/components/views/TabBar/index'
+import Home from '@/views/Home'
 export default {
   name:'App',
   components:{
-    TabBar
+    TabBar,
+    Home
   },
 }
 </script>
@@ -20,4 +22,6 @@ export default {
   height 100vh
   overflow hidden
   user-select none
+  background: #16181c
+  color: #fff
 </style>

@@ -1,6 +1,6 @@
 <template>
     <div id="vtuber">
-    <button>Hello</button>
+        <button> Hello </button>
     </div>
 </template>
 
