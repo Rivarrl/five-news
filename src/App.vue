@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <tab-bar></tab-bar>
+    <router-link to="/vtuber">Vtuber</router-link>
   </div>
 </template>
 <script>
@@ -19,6 +20,4 @@ export default {
   height 100vh
   overflow hidden
   user-select none
-  background #16181c
-  color #fff
 </style>
