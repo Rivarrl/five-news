@@ -1,6 +1,7 @@
 <template>
     <div id="vtuber">
-        <button> Hello </button>
+        <div id="citiao">词条</div>
+        <div id="juese">角色</div>
     </div>
 </template>
 
@@ -11,11 +12,19 @@ export default {
 </script>
 
 <style lang="stylus">
-#vtuber
-    width 100%
-    height 100%
+#citiao 
+    width 40%
+    height 90vh
+    float left 
     overflow hidden
     user-select none
-    background #000000
+    background #ffffff
+    color #000000
+#juese
+    width 40%
+    height 90vh
+    overflow hidden
+    user-select none
+    background #ffffff
     color #000000
 </style>
